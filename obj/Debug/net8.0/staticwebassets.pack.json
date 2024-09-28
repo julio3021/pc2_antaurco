@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\pc2_antaurco.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\css\\privacidad.css",
+      "PackagePath": "staticwebassets\\css\\privacidad.css"
+    },
+    {
       "Id": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
