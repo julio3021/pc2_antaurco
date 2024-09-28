@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Xnn3XNgov/P/4fnM0i9cZ9jFd6sYhxEVa6EXUDmimY=",
+  "Hash": "hjGKe1HCmmM+W2JwYCwa3u0fcP4Y2qO62tpHzYWvdS8=",
   "Source": "pc2_antaurco",
   "BasePath": "_content/pc2_antaurco",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\pc2_antaurco.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\css\\cuentabancaria.css",
+      "SourceId": "pc2_antaurco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\",
+      "BasePath": "_content/pc2_antaurco",
+      "RelativePath": "css/cuentabancaria.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cuentabancaria.css"
+    },
+    {
       "Identity": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\css\\index.css",
       "SourceId": "pc2_antaurco",
       "SourceType": "Discovered",
@@ -1212,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\css\\listarcuentas.css",
+      "SourceId": "pc2_antaurco",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\",
+      "BasePath": "_content/pc2_antaurco",
+      "RelativePath": "css/listarcuentas.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\listarcuentas.css"
     },
     {
       "Identity": "C:\\Users\\ACER\\Desktop\\pc2_antaurco\\wwwroot\\css\\privacidad.css",
