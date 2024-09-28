@@ -29,8 +29,8 @@ namespace pc2_antaurco.Controllers
             
             var viewModel = new CuentaBancariaViewModel
             {
-                FormCuentaBancaria = new CuentaBancaria(),  // Objeto vacío para el formulario
-                ListarCuentaBancaria = cuentas.ToList() // Lista de cuentas para la tabla
+                FormCuentaBancaria = new CuentaBancaria(), 
+                ListarCuentaBancaria = cuentas.ToList() 
             };
 
             return View(viewModel);
@@ -41,9 +41,8 @@ namespace pc2_antaurco.Controllers
         {
             if (viewModel.FormCuentaBancaria.Id == 0)
             {
-                // Crear una nueva mascota
                 _context.Add(viewModel.FormCuentaBancaria);
-                TempData["Message"] = "Se ha registrado una nueva cuenta.";
+                TempData["Message"] = "Excelente ingreso una nueva cuenta :D";
             }
 
             _context.SaveChanges();

@@ -1,10 +1,10 @@
 @model pc2_antaurco.ViewModel.CuentaBancariaViewModel
 @{
-    ViewData["Title"] = "Registro de Cuentas";
+    ViewData["Title"] = "Registro de Cuentas Bancarias";
 }
 
+<link rel="stylesheet" href="~/css/cuentabancaria.css" />
 <div class="container mt-4">
-    <!-- Mensaje de éxito -->
     @if (TempData["Message"] != null)
     {
         <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -16,7 +16,6 @@
     <h1 class="text-center mb-4">@ViewData["Title"]</h1>
 
     <div class="row">
-        <!-- Formulario para registrar cuentas bancarias -->
         <div class="col-lg-6">
             <div class="card">
                 <div class="card-header">
@@ -54,3 +53,4 @@
         </div>
     </div>
 </div>
+<br><br><br><br>

@@ -1,0 +1,77 @@
+/* Estilo general del formulario */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #28a745;
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: none;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.alert {
+  border-radius: 10px;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+}
+
+.row {
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
