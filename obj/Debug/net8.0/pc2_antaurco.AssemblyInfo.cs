@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pc2_antaurco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6e4806afb8c791112260d85319f533a26110619")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eef768466c668f57aff2eadbb82ab157e97b5577")]
 [assembly: System.Reflection.AssemblyProductAttribute("pc2_antaurco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pc2_antaurco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
