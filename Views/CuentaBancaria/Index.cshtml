@@ -1,0 +1,56 @@
+@model pc2_antaurco.ViewModel.CuentaBancariaViewModel
+@{
+    ViewData["Title"] = "Registro de Cuentas";
+}
+
+<div class="container mt-4">
+    <!-- Mensaje de éxito -->
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="row">
+        <!-- Formulario para registrar cuentas bancarias -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Registro de Cuenta Bancaria</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="CuentaBancaria" asp-action="Registrar" method="post">
+                        <input type="hidden" asp-for="FormCuentaBancaria.Id" />
+                        
+                        <div class="mb-3">
+                            <label asp-for="FormCuentaBancaria.NomTitular" class="form-label">Nombre del Titular</label>
+                            <input asp-for="FormCuentaBancaria.NomTitular" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FormCuentaBancaria.TipoCuenta" class="form-label">Tipo de Cuenta</label>
+                            <input asp-for="FormCuentaBancaria.TipoCuenta" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FormCuentaBancaria.SaldoInicial" class="form-label">Saldo Inicial</label>
+                            <input asp-for="FormCuentaBancaria.SaldoInicial" class="form-control" type="number" step="0.01" />
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="FormCuentaBancaria.Correo" class="form-label">Correo Electrónico</label>
+                            <input asp-for="FormCuentaBancaria.Correo" class="form-control" type="email" />
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Registrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
