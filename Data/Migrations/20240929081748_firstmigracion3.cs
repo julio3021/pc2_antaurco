@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace pc2_antaurco.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class firstmigracion2 : Migration
+    public partial class firstmigracion3 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

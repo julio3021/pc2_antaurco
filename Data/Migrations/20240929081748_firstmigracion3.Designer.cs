@@ -12,8 +12,8 @@ using pc2_antaurco.Data;
 namespace pc2_antaurco.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240928114712_firstmigracion2")]
-    partial class firstmigracion2
+    [Migration("20240929081748_firstmigracion3")]
+    partial class firstmigracion3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
